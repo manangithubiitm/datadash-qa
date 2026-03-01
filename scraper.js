@@ -1,16 +1,16 @@
 const { chromium } = require('playwright');
 
 const URLS = [
-  'https://exam.sanand.workers.dev/tds2025t1/g1/15',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/16',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/17',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/18',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/19',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/20',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/21',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/22',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/23',
-  'https://exam.sanand.workers.dev/tds2025t1/g1/24',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=15',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=16',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=17',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=18',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=19',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=20',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=21',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=22',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=23',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=24',
 ];
 
 (async () => {
